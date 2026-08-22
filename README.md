@@ -1,1 +1,1 @@
-This application calculates the total price of the product.
+Update README for ICTPRG547 project
