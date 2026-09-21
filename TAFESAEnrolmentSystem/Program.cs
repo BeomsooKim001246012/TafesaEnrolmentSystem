@@ -24,12 +24,12 @@ namespace TAFESAEnrolmentSystem
             Console.WriteLine(defaultAddress.ToString());
 
             // Test all-argument constructor
-            Address address = new Address(10, "King William Street", "Adelaide", "5000", "SA");
+            Address address = new Address("10", "King William Street", "Adelaide", "5000", "SA");
             Console.WriteLine("All-argument address:");
             Console.WriteLine(address.ToString());
 
             // Test Address properties
-            defaultAddress.StreetNum = 20;
+            defaultAddress.StreetNum = "20";
             defaultAddress.StreetName = "North Terrace";
             defaultAddress.Suburb = "Adelaide";
             defaultAddress.Postcode = "5000";

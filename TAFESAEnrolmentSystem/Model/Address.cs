@@ -13,10 +13,10 @@ namespace TAFESAEnrolmentSystem.Model
     public class Address
     {
         // Default values
-        public const string DEF_STREET_NUM = "No street number provided"
+        public const string DEF_STREET_NUM = "No street number provided";
         public const string DEF_STREET_NAME = "No street name provided";
         public const string DEF_SUBURB = "No suburb provided";
-        public const string DEF_POSTOCODE = "No postcode provided";
+        public const string DEF_POSTCODE = "No postcode provided";
         public const string DEF_STATE = "No state provided";
 
         // Property Assessor Methods
@@ -30,7 +30,7 @@ namespace TAFESAEnrolmentSystem.Model
         /// Creates and Address objects using default values.
         /// </summary>
 
-        public Address() : this(DEF_STREET_NUM, DEF_STREET_NAME, DEF_SUBURB, DEF_POSTOCODE, DEF_STATE)
+        public Address() : this(DEF_STREET_NUM, DEF_STREET_NAME, DEF_SUBURB, DEF_POSTCODE, DEF_STATE)
         {
 
         }
@@ -42,6 +42,7 @@ namespace TAFESAEnrolmentSystem.Model
         /// <param name="streetName">The street name.</param>
         /// <param name="suburb">The suburb.</param>
         /// <param name="postcode">The postcode.</param>
+        /// <param name="state">The state.</param>
         public Address(string streetNum, string streetName, string suburb, string postcode, string state)
         {
             StreetNum = streetNum;
